@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        .nombre{
+            display: inline-block;
+            width: 300px;
+            
+        }
+        .apellido{
+            display: inline-block;
+            margin-left: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="" >
+            <img src="https://img.redbull.com/images/c_fill,w_1200,h_630,g_auto,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends" alt="Imagen" width="150">
+            <hgroup>
+                <h1>Crea una cuenta</h1>
+                <h2>Ingrese la siguiente informacion para registrarte</h2>
+            </hgroup>
+            <label for=""class="nombre">
+                Nombre
+                <input type="text" placeholder="Tobias">
+            </label>
+            <label for=""class="apellido">
+                Apellidos
+                <input type="text" placeholder="Abregu">
+            </label>
+            <label for="">
+                Edad
+                <input type="number" placeholder="Ej: 19">
+            </label>
+            <label for="">
+                Fecha de nacimiento
+                <input type="date">
+            </label>
+            <label for="">
+                Genero
+                <select name="genero" id="">
+                    <option value="" undisabled>Selecciona tu genero</option>
+                    <option value="FE">Femenino</option>
+                    <option value="MA">Masculino</option>
+                </select>
+            </label>
+            <label for="">
+                Correo electronico
+                <input type="email" placeholder="Email: Ej. user@gmail.com">
+            </label>
+            <label for="">
+                Direccion
+                <input type="text" placeholder="Direccion">
+                <input type="text" placeholder="Direccion linea 2">
+            </label>
+            <label for="">
+                Telefono
+                <input type="tel" placeholder="Numero de telefono">
+            </label>
+            <label for="">
+                Código postal
+                <input type="text" placeholder="Ej: 14001">
+            </label>
+            <label for="text">
+                Ciudad
+                <input type="text" placeholder="Ej: Chiclayo">
+            </label>
+            <label for="">
+                Subir firma
+                <input type="file">
+            </label>
+            <label for="">
+                <input type="checkbox">
+                Acepto los terminos, condiciones y politicas
+            </label>
+            <input type="submit" value="Registrarse">
+            <label for="">
+                Ya tienes una cuenta? <a href="">Accede desde aquí</a>
+            </label>
+
+        </form>
+    </main>
+</body>
+</html>

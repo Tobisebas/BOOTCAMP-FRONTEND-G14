@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    
+}
+main{
+    display: flex;
+    width: 800px;
+    height: 562px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    color: hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.derecha{
+    display: flex;
+    width: 400px;
+}
+.izquierda{
+    
+    
+    width: 400px;
+}
+.izquierda h1{
+    font-size: 50px;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 32px;
+    margin-bottom: 0;
+    
+    
+}
+.izquierda .paragraph{
+
+    padding-left: 22px ;
+    margin-top: 21px;
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: hsl(235, 18%, 26%);
+    font-weight: 700;
+}
+p{
+    display: inline-flex;
+    padding-left: 20px ;
+    margin: 10px;
+    margin-bottom: 0;
+    color: hsl(235, 18%, 26%);
+    font-size: 13px;
+    font-weight: 400;
+   
+    
+}
+svg{
+    padding-right: 15px;
+}
+label{
+    padding-left: 20px;
+    font-weight: bold;
+}
+input.email{
+    color: hsl(231, 7%, 60%);
+    border-color: hsl(231, 7%, 60%);
+    margin-left: 20px;
+    height: 36px;
+    width: 314px;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding-left: 20px;
+
+}
+input.button{
+    margin-top: 23px;
+    margin-left: 21px;
+    width: 338px;
+    height: 51px;
+    border-radius: 7px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    cursor: pointer;
+}
+.extension{
+    margin-bottom: 30px;
+}
+.derecha .imagen{
+    height: 480px;
+    margin-top: 42px;
+}
+label{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.button:hover{
+    background-color: blue ;
+}
+
+
