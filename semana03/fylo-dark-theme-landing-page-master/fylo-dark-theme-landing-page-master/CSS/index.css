@@ -91,6 +91,7 @@ img{
     font-family: var(--font-secondary);
     padding: 0 7rem;
     line-height: 1.5;
+    font-size: 17px;
     
 }
 .hero__button{
@@ -106,4 +107,28 @@ img{
     linear-gradient(90deg, var(--accent-cyan-gradient) 0%,var(--accent-blue-gradient) 35%
     )
     ;
+}
+.features{
+    display: grid;
+    grid-template-columns: 363px 381px;
+    justify-content: center;
+    gap: 9rem;
+    background-color: var(--primary-dark-blue-main);
+    padding-top: 8rem;
+    
+}
+.feature{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+   
+}
+.feature__tittle{
+    font-family: var(--font-primary);
+}
+.feature__text{
+    font-family: var(--font-secondary);
 }
