@@ -47,7 +47,7 @@ img{
 }
 .header__nav {
     list-style: none;
-    
+    font-family: var(--font-secondary);
     /*width: 300px;*/
     padding: 10px;
     margin: 10px;
@@ -120,7 +120,6 @@ img{
 .feature{
     display: flex;
     text-align: center;
-    flex-direction: column;
     gap: 1rem;
     align-items: center;
     
@@ -132,3 +131,145 @@ img{
 .feature__text{
     font-family: var(--font-secondary);
 }
+.part3{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    align-items: center;
+    background-color: var(--primary-dark-blue-main);
+    gap: 5rem;
+    padding-top: 8rem;
+    justify-content: center;
+    
+}
+.part3__h3{
+    font-size: 36px;
+    width: 442px;
+    font-family: var(--font-primary);
+}
+.part3__p1{
+    font-family: var(--font-secondary);
+}
+.part3__p2{
+    font-family: var(--font-secondary);
+}
+.part3__div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.enlace{
+    display: flex;
+    color: aqua;
+    align-items: flex-end;
+    font-family: var(--font-secondary);
+    cursor: pointer;
+    border-bottom: 1px solid aqua;
+    width: 147px;
+    gap: 5px;
+    padding-bottom: 4.5px;
+    
+}
+.testimonials{
+    display: flex;
+    padding: 0 3px;
+    padding-top: 8rem;
+    background-color: var(--primary-dark-blue-main);
+    gap: 2rem;
+    justify-content: center;
+    background-image: url(../images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: 24% 39%;
+    
+    
+}
+.testimonial{
+    background-color: var(--primary-dark-blue-testimonials);
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: var(--font-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 4px;
+}
+
+.testimonial p{
+    width: 16rem;
+    font-size: 12px;
+}
+.testimonial img{
+    border-radius: 100%;
+    width: 20px;
+}
+.testimonial__div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 167px;
+    font-size: 7px;
+    
+    
+}
+.testimonial__div h5{
+    font-weight: var(--font-weight-regular);
+}
+.titulos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.formulario {
+    
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    padding-top: 172px;
+    height: 390px;
+    background: linear-gradient(to bottom, var(--primary-dark-blue-main) 75%, var(--primary-dark-blue-footer) 25%);
+    font-family: var(--font-secondary);
+}
+.forms{
+    
+    display: flex;
+    text-align: center;
+    
+}
+.register{
+    padding: 13px;
+    height: 194px;
+    width: 728px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-dark-blue-into);
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 6px;
+    box-shadow: 1px 1px var(--primary-dark-blue-main);
+}
+.inputs {
+    display: flex;
+    gap: 1rem;
+}
+.h1{
+    font-size: 34px ;
+}
+.p{
+    font-size: 12px;
+    width: 531px;
+}
+.email{
+    width: 345px;
+    height: 40px;
+    border-radius: 30px;
+}
+.boton{
+    border-radius: 30px;
+    width: 174px;
+}
+
+
