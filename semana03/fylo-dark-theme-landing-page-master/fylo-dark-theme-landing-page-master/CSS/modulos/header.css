@@ -1,0 +1,26 @@
+.header {
+    
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.logo1{
+    width: 99px;
+    height: 40px;
+}
+/*@media (min-width: ){
+    .logo1{
+
+    }
+}*/
+.header__nav {
+    list-style: none;
+    font-family: var(--font-secondary);
+    /*width: 300px;*/
+    padding: 10px;
+    display: flex;
+    gap: 1.5rem; /* 1rem = 14px */
+    
+}
