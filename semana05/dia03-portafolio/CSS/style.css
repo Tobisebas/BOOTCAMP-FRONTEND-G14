@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #4F4557;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  color: #FFD95A;
+  font-size: 32px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.li--first {
+  color: #FF8742;
+  padding-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+}
+
+.more-links {
+  display: flex;
+  gap: 20px;
+}
+
+.name {
+  color: #FF8742;
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 62px;
+  padding-bottom: 42px;
+}
+
+a {
+  color: #FFD95A;
+  text-decoration: none;
+}
+
+.Presentation {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/bg-image-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+.Presentation--name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 32px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 50.753px;
+  gap: 0.5rem;
+}
+.Presentation--ocupation {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.85px;
+  text-transform: capitalize;
+}
+.Presentation--description {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50.753px;
+}
+.Presentation--profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.Presentation--photo {
+  width: 313.976px;
+  height: 313.976px;
+  flex-shrink: 0;
+  border-radius: 200px;
+}
+.Presentation--language {
+  display: flex;
+  justify-content: center;
+  padding-top: 67px;
+  gap: 24px;
+}
+.Presentation--language--icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.Presentation--language--icons--box {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4F4557;
+  border-radius: 8px;
+}
+
+.skills {
+  display: flex;
+  padding: 93px;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+.skills--description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.skills--description--intro {
+  color: #FFD95A;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  background-color: #6D5D6E;
+  padding: 6px 24px;
+  border-radius: 50px;
+  width: 244px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+.skills--description--text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.skills--description--title {
+  width: 638px;
+  height: 111px;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.skills--description--paragraph {
+  font-size: 16px;
+  width: 473px;
+  height: 59px;
+  color: #FFFFFF;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.skills--rows {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.skills--rows--icon {
+  width: 48px;
+  height: 48px;
+}
+.skills--icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.skills--icons--row {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #393646;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works--title {
+  display: inline-flex;
+  padding: 6px 25px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50px;
+  color: #FFD95A;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.08);
+  width: 232px;
+}
+.works--examples {
+  display: flex;
+  height: 56px;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 48px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+.works--examples--tipe {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  gap: 95px;
+}
+.works--examples--tipe--ye {
+  color: #FFD95A;
+  text-decoration: underline 2px;
+}
+.works--examples--tipe--li {
+  text-decoration: underline 2px;
+}
+.works--visual {
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  grid-template-rows: 495px 495px;
+  grid-gap: 32px;
+  margin-top: 48px;
+}
+.works--visual--image {
+  background-color: #FF8742;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  margin-top: 150px;
+  padding: 40px;
+  background-image: url(../images/bg-image-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+.footer--image {
+  color: #FFD95A;
+  font-size: 32px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer--credits {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
