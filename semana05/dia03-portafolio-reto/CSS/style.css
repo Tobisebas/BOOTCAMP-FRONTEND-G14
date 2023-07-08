@@ -1,31 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-html {
-  font-size: 16px;
-}
-
-body {
-  background-color: #4F4557;
-  color: #FFFFFF;
-}
-
-li {
-  list-style: none;
-}
-
-.logo {
-  color: #FFD95A;
-  font-size: 32px;
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -33,44 +6,9 @@ header {
   align-items: center;
 }
 
-ul {
-  display: flex;
-  gap: 25px;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
-.li--first {
-  color: #FF8742;
-  padding-bottom: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  width: fit-content;
-}
-
-.more-links {
-  display: flex;
-  gap: 20px;
-}
-
-.name {
-  color: #FF8742;
-  text-decoration: underline;
-}
-
 main {
   padding-top: 62px;
   padding-bottom: 42px;
-}
-
-a {
-  color: #FFD95A;
-  text-decoration: none;
 }
 
 .Presentation {
@@ -311,6 +249,68 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #4F4557;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  color: #FFD95A;
+  font-size: 32px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.li--first {
+  color: #FF8742;
+  padding-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+}
+
+.more-links {
+  display: flex;
+  gap: 20px;
+}
+
+.name {
+  color: #FF8742;
+  text-decoration: underline;
+}
+
+a {
+  color: #FFD95A;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
