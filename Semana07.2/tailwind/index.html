@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas - parte 2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .isChecked{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <main class="w-96 border rounded-lg shadow mx-auto mt-10">
+
+        <section class="flex flex-col px-4 py-6">
+            <h1 class="text-xl font-bold text-gray-900 text-center mb-4">Lista de tareas</h1>
+            <input class="task__input bg-white border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 w-full" placeholder="Ingresa una tarea">
+
+            <div class="flex justify-end py-3">
+                <button class="limpiar border border-blue-700 font-medium text-sm p-1 px-3 hover:bg-blue-700 rounded-lg text-blue-700 hover:text-white">Limpiar tareas completadas</button>
+            </div>
+
+            <ul class="task__list">
+                <!-- <li>
+                    <input type="checkbox">
+                    <span>Estudiar Javascript</span>
+                    <button>Borrar</button>
+                </li> -->
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
