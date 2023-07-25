@@ -59,6 +59,7 @@ siguiente.forEach(function(boton){
             behavior: "smooth",
         }))
         
+        
     })
 })
 notas.addEventListener("click",function(event){
@@ -70,6 +71,7 @@ notas.addEventListener("click",function(event){
             notas.innerHTML = `
             <h1 class="text-xl">Felicitaciones!!!</h1>
             <p>Haz logrado un puntaje perfecto, sigue asi :3</p>
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3">Volver a intentar</button>
             `
             console.log("gozu")
         }
@@ -78,6 +80,7 @@ notas.addEventListener("click",function(event){
             notas.innerHTML = `
             <h1 class="text-xl">Casi lo consigues!</h1>
             <p>No te rindas, puedes mejorar :)</p>
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3">Volver a intentar</button>
             `
             console.log("Puedes mejorar")
         }
@@ -86,8 +89,14 @@ notas.addEventListener("click",function(event){
             notas.innerHTML = `
             <h1 class="text-xl">Fallaste</h1>
             <p>Tienes que esforzarte mas! :c</p>
+            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3">Volver a intentar</button>
             `
             console.log("Regresa al colegio y pide que te devuelvan tu dinero")
         }
+        let buttonAgain = event.target
+        if(buttonAgain.innerText == "Volver a intentar"){
+            window.location.href = window.location.href
+        }
+            
     }
 })
