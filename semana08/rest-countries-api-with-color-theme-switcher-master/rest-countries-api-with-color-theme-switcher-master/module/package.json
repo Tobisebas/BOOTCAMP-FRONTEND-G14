@@ -1,0 +1,17 @@
+{
+  "name": "modulo",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codigo",
+    "javascript",
+    "modulos"
+  ],
+  "author": "Tobias Abregu",
+  "license": "ISC"
+}
