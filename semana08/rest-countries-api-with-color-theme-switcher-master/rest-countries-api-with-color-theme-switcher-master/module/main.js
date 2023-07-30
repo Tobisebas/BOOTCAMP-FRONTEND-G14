@@ -3,8 +3,20 @@ import { renderCountries } from "./utils.js"
 
 
 const searchInput = document.querySelector(".app__search")
+const options = document.getElementById("filter")
 
 let countryData = []
+
+options.addEventListener("click", (event) => {
+    let option = event.target.value
+    const filterCountries = countryData.filter(country => {
+        const lowerRegion = country.region.toLowerCase()
+        const lowerOption = option.toLowerCase()
+
+        return lowerRegion.includes(lowerOption)
+    })
+    renderCountries(filterCountries)
+})
 
 searchInput.addEventListener("input", (event) => {
     const input = event.target.value
